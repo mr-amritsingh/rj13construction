@@ -51,7 +51,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="flex justify-between items-center py-4">
             <Link to="/" className="flex items-center">
               <div className="text-2xl font-bold text-slate-800">
-                RJ 13 <span className="text-blue-600">Construction</span>
+                RJ 13 <span className="text-blue-600">Construction</span><span>Ltd.</span>
               </div>
             </Link>
 
