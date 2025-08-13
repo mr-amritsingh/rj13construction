@@ -24,10 +24,10 @@ const ContactPage: React.FC = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_0wgpyoa',        // e.g. 'gmail'
-      'template_vp9a5xa',       // e.g. 'template_123abc'
+      'service_fsktjll',        // e.g. 'gmail'
+      'template_ptn528i',       // e.g. 'template_123abc'
       formData,
-      'aAjQkb5Lh9m3vkj_p'         // e.g. 'user_xxxxxx'
+      'rGnTfpSCMHBxjm8I5'         // e.g. 'user_xxxxxx'
     )
     .then((result) => {
       console.log('Email successfully sent!', result.text);
